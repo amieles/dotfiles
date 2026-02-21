@@ -1,2 +1,6 @@
+eval "$(zoxide init zsh)"
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
-. "$HOME/snap/code/190/.local/share/../bin/env"
+# added by Snowflake SnowSQL installer
+export PATH=/home/alex/bin:$PATH
